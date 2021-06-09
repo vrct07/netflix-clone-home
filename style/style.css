@@ -25,8 +25,10 @@ header .container {
    flex-direction: row;       /*Essa tag é o padrão do 'display: flex;'*/
    align-items: center;
    justify-content: space-between;
-   margin-right: 800px;
-} 
+   margin-right: 40px;
+   
+
+}
 
 header .logo {
     margin-left: 25px;
@@ -36,6 +38,10 @@ header .logo {
     
 }
 
+header div nav {
+    vertical-align: middle;
+}
+
 header div nav a {
     text-decoration: none;
     color: #aaa;
@@ -43,6 +49,7 @@ header div nav a {
     font-family: Arial, Helvetica, sans-serif;
     
 }
+
 
 header nav a:hover {
     color: #fff
@@ -104,8 +111,17 @@ header nav a:hover {
 img.favicon-botao { vertical-align: -6px; }
 
 .filme-principal .container {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
     
 }
 
+.box.film {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-filmes {
+    margin-top: 5px;
+}
