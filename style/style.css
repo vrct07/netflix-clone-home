@@ -30,7 +30,7 @@ header .container {
 header .logo {
     margin-left: 5px;
     color: var(--vermelho);
-    font-family: 'Arial Black', Times;
+    font-family: 'Arial', Times;
     font-size: 40px;
     
 }
@@ -87,3 +87,18 @@ header nav a:hover {
     background-color: white;
     color: black;
 }
+
+.botao i {
+    margin-right: 8px;
+}
+
+.favicon-botao {
+    
+    margin-right: 4px;
+    width: 20px;
+    margin-top:
+
+}
+
+img.favicon-botao { vertical-align: -6px; }
+
