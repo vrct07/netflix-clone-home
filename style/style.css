@@ -14,7 +14,7 @@
 
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
 
@@ -46,7 +46,7 @@ header div nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     
 }
 
@@ -95,6 +95,7 @@ header nav a:hover {
     font-family: arial;
     border-radius: 4px;
     border: 0px;
+    opacity: 1;
 }
 
 .botao2 {
@@ -110,6 +111,7 @@ header nav a:hover {
     transition: .4s ease all;
     border-radius: 4px;
     border: 0px;
+    opacity: 1;
 }
 
 .botao1:hover {
