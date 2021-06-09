@@ -1,0 +1,43 @@
+:root {                     /*com isso declaramos variáveis em css*/
+    --vermelho: #e50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+header .container {
+   display: flex;
+   flex-direction: row;       /*Essa tag é o padrão do 'display: flex;'*/
+   align-items: center;
+   justify-content: space-between;
+} 
+
+header .logo {
+    margin-left: 6px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    
+}
+
+header div nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff
+}
+
